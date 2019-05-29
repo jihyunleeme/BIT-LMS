@@ -1,0 +1,118 @@
+@charset "UTF-8";
+<style>
+
+        .logoNmenu{
+            display:block
+        }
+        header {
+            background-image: url('../imgs/relogosize.png');
+            background-repeat: none;
+            max-width: 255px;
+            width: 30%;
+            height: 69px;
+            margin-top: 20px;
+            text-indent: -999px;
+            display: inline-block;
+            float: left;
+            
+        }
+
+        .menu {
+            display: inline;
+            float: right;
+            width: 70%;
+        }
+
+        ol {
+             
+            list-style: none;
+            display: inline-block;
+            float: right;
+        }
+
+        ol>li {
+            margin: 0px 20px;
+            margin-top: 35px;
+            color: black;
+            display: inline-block;
+            
+        }
+   
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color:black;
+        }
+        
+        .leftMenu{
+            display: inline-block;
+            float: left;
+            clear: both;
+            margin-top: 60px;
+        }
+        
+        ul>li{
+            background-color: rgb(132, 170, 196);
+            list-style: none;
+            padding: 15px;
+       
+        }
+        
+        ul> li:first-child{
+            
+            background-color: rgb(199,199,199);
+            margin-bottom: 10px;
+            padding: 15px;
+           	
+        }
+        
+        footer {
+            display: block;
+            float: right;
+            position: fixed;
+            bottom: 0px;
+            background: rgb(199, 199, 199);
+            color: white;
+            padding: 0px 30px;
+        }
+
+        footer>p {
+            text-align: center;
+        }
+    
+        #buttonsize input {width: 80px; height: 35px; margin-top: 5px;}
+        
+
+/* boardcss_list 에서 사용하는 글 목록 테이블 크기*/
+.boardcss_list_table {
+	display: inline-block;
+	width: 70%;
+}
+
+/* 화면에 보여지는 글 목록 테이블 */
+.list_table {
+	width: 100%;
+}
+
+/* 화면에 보여지는 caption */
+.list_table caption {
+	display: none;
+}
+
+/* list_table 에서 사용되는 thead */
+.list_table thead th {
+	text-align: center;
+	border-top: 1px solid #82b5df;
+	border-bottom: 1px solid #82b5df;
+	padding: 8px 0;
+	background: #faf9fa;
+}
+
+/* list_table 에서 사용되는 tbody */
+.list_table tbody td {
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 5px 0;
+}
+</style>

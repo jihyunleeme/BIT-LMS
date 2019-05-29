@@ -1,0 +1,164 @@
+@charset "EUC-KR";
+<style>
+/* boardcss_list 에서 사용되는 글 등록 버튼 테이블 크기 */
+#boardcss_list_add_button_table {
+	width: 100%;
+	margin: 0 auto 15px;
+	/*position: relative; background: #bddcff; font-weight: bold;*/
+}
+
+/* 화면에 보여지는 글 등록 버튼 */
+#boardcss_list_add_button_table .add_button {
+	border: 1px solid #bebebe;
+	right: 10px;
+	top: 10px;
+	width: 85px;
+	padding: 6px 0 6px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#boardcss_list_add_button_table .add_button a {
+	color: #ffffff;
+}
+
+/* 글 등록 버튼과 글 목록이 겹치지 않게 만들어준 아무것도 아닌것 */
+#boardcss_list_add_button_table .boardcss_list_add_button ul {
+	width: 100%;
+	overflow: hidden;
+	height: 10px;
+}
+
+/* boardcss_list 에서 사용하는 글 목록 테이블 크기*/
+.boardcss_list_table {
+	display: inline-block;
+	float: right;
+	width: 70%;
+	padding: 0px 120px 0px 120px;
+	position: absolute;
+}
+
+/* 화면에 보여지는 글 목록 테이블 */
+.list_table {
+	width: 100%;
+}
+
+/* 화면에 보여지는 caption */
+.list_table caption {
+	display: none;
+}
+
+/* list_table 에서 사용되는 thead */
+.list_table thead th {
+	text-align: center;
+	border-top: 1px solid #82b5df;
+	border-bottom: 1px solid #82b5df;
+	padding: 8px 0;
+	background: #faf9fa;
+}
+
+/* list_table 에서 사용되는 tbody */
+.list_table tbody td {
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 5px 0;
+}
+
+header {
+	background-image: url(../imgs/logoSmall.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-indent: -999px;
+	height: 100px;
+	background-color: rgb(209, 215, 219);
+	margin: none;
+	width: 100%;
+}
+
+h2 {
+	margin: 0px;
+}
+
+.mainMenu {
+	left: 500px;
+	float: right;
+	margin-top: -60px;
+	margin-right: 1000px;
+	padding: 0px 0px;
+	position: absolute;
+	width: 700px;
+}
+/* mainMenuUl 메뉴 간격 띄우기*/
+span {
+	/*margin-right : 20px;
+            padding-right: 70px;
+            */
+	margin-right: 50px;
+}
+
+/* 모든 list style */
+a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* 세로 메뉴 */
+ul {
+	margin-top: 190px;
+}
+
+li {
+	list-style-type: square;
+	margin-bottom: 60px;
+	margin-left: 20px;
+}
+
+.adminBg {
+	background-color: rgb(209, 215, 219);
+	width: 200px;
+	height: 660px;
+	display: inline-block;
+	float: center;
+}
+.Img {
+	margin-top: 50px;
+}
+
+.adminImg {
+	background-image: url(../imgs/person.png);
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: center;
+	margin-left: -5px;
+	text-indent: -999px;
+	height: 120px;
+	width: 200px;
+	display: block;
+	float: left;
+}
+
+.adminImgCircle {
+	width: 120px;
+	height: 120px;
+	background: rgb(132, 170, 196);
+	border-radius: 100px;
+	margin-left: 33px;
+	margin-bottom: -140px;
+	display: block;
+	float: center;
+}
+
+#bord {
+	border-bottom: solid 1px gray;
+	height: 300px;
+	margin-top: 10px;
+}
+
+#buttonsize input {
+	width: 60px;
+	height: 30px;
+	margin-top: 5px;
+}
+</style>
